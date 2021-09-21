@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes Generaotr</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body onload="displayTimeOfDay()">
+    <div>
+        <div class="heading">
+            <h2 class='title'>Lets start our morning with a new quote</h2>
+        </div>
+        <div class="container">
+            <div class="content">
+                <span class='icon'><sup><i class="fas fa-quote-left"></i></sup></span>
+                <span class='quote'>
+                    Press the button to get quote
+                </span>
+                <span class='icon right'><sup><i class="fas fa-quote-right"></i></sup></span>
+                
+            </div>
+            <div class="by"> -by <span class='author'></span></div>
+            <div class='btn'>
+                <button id='quote-btn' onclick="getQuote()">New Quote</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
